@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\bxkuy\\OneDrive\\Masa\u00FCst\u00FC\\VisualProgramingProject\\UniversitySystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6D0A8FFA-E524-457A-8260-A02C1E0BC31A}|UniversitySystem\\UniversitySystem.csproj|c:\\users\\bxkuy\\onedrive\\masa\u00FCst\u00FC\\visualprogramingproject\\universitysystem\\universitysystem\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D0A8FFA-E524-457A-8260-A02C1E0BC31A}|UniversitySystem\\UniversitySystem.csproj|solutionrelative:universitysystem\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D0A8FFA-E524-457A-8260-A02C1E0BC31A}|UniversitySystem\\UniversitySystem.csproj|C:\\Users\\bxkuy\\OneDrive\\Masa\u00FCst\u00FC\\VisualProgramingProject\\UniversitySystem\\universitysystem\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D0A8FFA-E524-457A-8260-A02C1E0BC31A}|UniversitySystem\\UniversitySystem.csproj|solutionrelative:universitysystem\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D0A8FFA-E524-457A-8260-A02C1E0BC31A}|UniversitySystem\\UniversitySystem.csproj|C:\\Users\\bxkuy\\OneDrive\\Masa\u00FCst\u00FC\\VisualProgramingProject\\UniversitySystem\\universitysystem\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6D0A8FFA-E524-457A-8260-A02C1E0BC31A}|UniversitySystem\\UniversitySystem.csproj|solutionrelative:universitysystem\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D0A8FFA-E524-457A-8260-A02C1E0BC31A}|UniversitySystem\\UniversitySystem.csproj|C:\\Users\\bxkuy\\OneDrive\\Masa\u00FCst\u00FC\\VisualProgramingProject\\UniversitySystem\\universitysystem\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6D0A8FFA-E524-457A-8260-A02C1E0BC31A}|UniversitySystem\\UniversitySystem.csproj|solutionrelative:universitysystem\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D0A8FFA-E524-457A-8260-A02C1E0BC31A}|UniversitySystem\\UniversitySystem.csproj|C:\\Users\\bxkuy\\OneDrive\\Masa\u00FCst\u00FC\\VisualProgramingProject\\UniversitySystem\\universitysystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D0A8FFA-E524-457A-8260-A02C1E0BC31A}|UniversitySystem\\UniversitySystem.csproj|solutionrelative:universitysystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D0A8FFA-E524-457A-8260-A02C1E0BC31A}|UniversitySystem\\UniversitySystem.csproj|C:\\Users\\bxkuy\\OneDrive\\Masa\u00FCst\u00FC\\VisualProgramingProject\\UniversitySystem\\universitysystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6D0A8FFA-E524-457A-8260-A02C1E0BC31A}|UniversitySystem\\UniversitySystem.csproj|solutionrelative:universitysystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Main.cs",
+              "DocumentMoniker": "C:\\Users\\bxkuy\\OneDrive\\Masa\u00FCst\u00FC\\VisualProgramingProject\\UniversitySystem\\UniversitySystem\\Main.cs",
+              "RelativeDocumentMoniker": "UniversitySystem\\Main.cs",
+              "ToolTip": "C:\\Users\\bxkuy\\OneDrive\\Masa\u00FCst\u00FC\\VisualProgramingProject\\UniversitySystem\\UniversitySystem\\Main.cs",
+              "RelativeToolTip": "UniversitySystem\\Main.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAgwBYAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T13:47:58.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\bxkuy\\OneDrive\\Masa\u00FCst\u00FC\\VisualProgramingProject\\UniversitySystem\\UniversitySystem\\Student.cs",
+              "RelativeDocumentMoniker": "UniversitySystem\\Student.cs",
+              "ToolTip": "C:\\Users\\bxkuy\\OneDrive\\Masa\u00FCst\u00FC\\VisualProgramingProject\\UniversitySystem\\UniversitySystem\\Student.cs",
+              "RelativeToolTip": "UniversitySystem\\Student.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAFQAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T10:05:31.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Student.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\bxkuy\\OneDrive\\Masa\u00FCst\u00FC\\VisualProgramingProject\\UniversitySystem\\UniversitySystem\\Student.cs",
+              "RelativeDocumentMoniker": "UniversitySystem\\Student.cs",
+              "ToolTip": "C:\\Users\\bxkuy\\OneDrive\\Masa\u00FCst\u00FC\\VisualProgramingProject\\UniversitySystem\\UniversitySystem\\Student.cs [Tasar\u0131m]",
+              "RelativeToolTip": "UniversitySystem\\Student.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T08:55:21.189Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\bxkuy\\OneDrive\\Masa\u00FCst\u00FC\\VisualProgramingProject\\UniversitySystem\\UniversitySystem\\Form1.cs",
+              "RelativeDocumentMoniker": "UniversitySystem\\Form1.cs",
+              "ToolTip": "C:\\Users\\bxkuy\\OneDrive\\Masa\u00FCst\u00FC\\VisualProgramingProject\\UniversitySystem\\UniversitySystem\\Form1.cs [Tasar\u0131m]",
+              "RelativeToolTip": "UniversitySystem\\Form1.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T13:29:58.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Main.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\bxkuy\\OneDrive\\Masa\u00FCst\u00FC\\VisualProgramingProject\\UniversitySystem\\UniversitySystem\\Main.cs",
+              "RelativeDocumentMoniker": "UniversitySystem\\Main.cs",
+              "ToolTip": "C:\\Users\\bxkuy\\OneDrive\\Masa\u00FCst\u00FC\\VisualProgramingProject\\UniversitySystem\\UniversitySystem\\Main.cs [Tasar\u0131m]",
+              "RelativeToolTip": "UniversitySystem\\Main.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T21:01:31.278Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\bxkuy\\OneDrive\\Masa\u00FCst\u00FC\\VisualProgramingProject\\UniversitySystem\\UniversitySystem\\Form1.cs",
+              "RelativeDocumentMoniker": "UniversitySystem\\Form1.cs",
+              "ToolTip": "C:\\Users\\bxkuy\\OneDrive\\Masa\u00FCst\u00FC\\VisualProgramingProject\\UniversitySystem\\UniversitySystem\\Form1.cs",
+              "RelativeToolTip": "UniversitySystem\\Form1.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABgAAACBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T13:29:17.854Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+C:\Users\bxkuy\OneDrive\Masaüstü\VisualProgramingProject\UniversitySystem\UniversitySystem\bin\Debug\UniversitySystem.exe.config
+C:\Users\bxkuy\OneDrive\Masaüstü\VisualProgramingProject\UniversitySystem\UniversitySystem\bin\Debug\UniversitySystem.exe
+C:\Users\bxkuy\OneDrive\Masaüstü\VisualProgramingProject\UniversitySystem\UniversitySystem\bin\Debug\UniversitySystem.pdb
+C:\Users\bxkuy\OneDrive\Masaüstü\VisualProgramingProject\UniversitySystem\UniversitySystem\obj\Debug\UniversitySystem.csproj.AssemblyReference.cache
+C:\Users\bxkuy\OneDrive\Masaüstü\VisualProgramingProject\UniversitySystem\UniversitySystem\obj\Debug\UniversitySystem.Form1.resources
+C:\Users\bxkuy\OneDrive\Masaüstü\VisualProgramingProject\UniversitySystem\UniversitySystem\obj\Debug\UniversitySystem.Properties.Resources.resources
+C:\Users\bxkuy\OneDrive\Masaüstü\VisualProgramingProject\UniversitySystem\UniversitySystem\obj\Debug\UniversitySystem.csproj.GenerateResource.cache
+C:\Users\bxkuy\OneDrive\Masaüstü\VisualProgramingProject\UniversitySystem\UniversitySystem\obj\Debug\UniversitySystem.csproj.CoreCompileInputs.cache
+C:\Users\bxkuy\OneDrive\Masaüstü\VisualProgramingProject\UniversitySystem\UniversitySystem\obj\Debug\UniversitySystem.exe
+C:\Users\bxkuy\OneDrive\Masaüstü\VisualProgramingProject\UniversitySystem\UniversitySystem\obj\Debug\UniversitySystem.pdb
+C:\Users\bxkuy\OneDrive\Masaüstü\VisualProgramingProject\UniversitySystem\UniversitySystem\obj\Debug\UniversitySystem.Main.resources
+C:\Users\bxkuy\OneDrive\Masaüstü\VisualProgramingProject\UniversitySystem\UniversitySystem\obj\Debug\UniversitySystem.Student.resources
