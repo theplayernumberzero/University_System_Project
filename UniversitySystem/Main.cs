@@ -22,5 +22,17 @@ namespace UniversitySystem
             Student st = new Student();
             st.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Subject sj = new Subject();
+            sj.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Teacher tr = new Teacher();
+            tr.Show();
+        }
     }
 }

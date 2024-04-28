@@ -10,3 +10,5 @@ C:\Users\bxkuy\OneDrive\Masaüstü\VisualProgramingProject\UniversitySystem\Univ
 C:\Users\bxkuy\OneDrive\Masaüstü\VisualProgramingProject\UniversitySystem\UniversitySystem\obj\Debug\UniversitySystem.pdb
 C:\Users\bxkuy\OneDrive\Masaüstü\VisualProgramingProject\UniversitySystem\UniversitySystem\obj\Debug\UniversitySystem.Main.resources
 C:\Users\bxkuy\OneDrive\Masaüstü\VisualProgramingProject\UniversitySystem\UniversitySystem\obj\Debug\UniversitySystem.Student.resources
+C:\Users\bxkuy\OneDrive\Masaüstü\VisualProgramingProject\UniversitySystem\UniversitySystem\obj\Debug\UniversitySystem.Subject.resources
+C:\Users\bxkuy\OneDrive\Masaüstü\VisualProgramingProject\UniversitySystem\UniversitySystem\obj\Debug\UniversitySystem.Teacher.resources
