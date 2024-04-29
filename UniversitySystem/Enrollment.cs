@@ -38,10 +38,10 @@ namespace UniversitySystem
             SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-ITDVNJL;Initial Catalog=schooldb;Integrated Security=True");
             con.Open();
 
-            SqlCommand cnn = new SqlCommand("insert into entab values(@eid,@studentname,@section,@enrolldate)", con);
+            SqlCommand cnn = new SqlCommand("insert into entab values(@eid,@studentid,@sectionid,@enrolldate)", con);
             cnn.Parameters.AddWithValue("@eid", int.Parse(textBox1.Text));
-            cnn.Parameters.AddWithValue("@studentname", textBox2.Text);
-            cnn.Parameters.AddWithValue("@section", textBox3.Text);
+            cnn.Parameters.AddWithValue("@studentid", int.Parse(textBox2.Text));
+            cnn.Parameters.AddWithValue("@sectionid", int.Parse(textBox3.Text));
             cnn.Parameters.AddWithValue("@enrolldate", dateTimePicker1.Value);
             cnn.ExecuteNonQuery();
             con.Close();
@@ -53,7 +53,7 @@ namespace UniversitySystem
             SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-ITDVNJL;Initial Catalog=schooldb;Integrated Security=True");
             con.Open();
 
-            SqlCommand cnn = new SqlCommand("select * from entab", con);
+            SqlCommand cnn = new SqlCommand("select * from (entab e JOIN studentab s ON e.StudentId = s.StudentId) JOIN sectiontab se ON e.SectionId = se.SectionId", con);
             SqlDataAdapter da = new SqlDataAdapter(cnn);
             DataTable table = new DataTable();
             da.Fill(table);
@@ -65,10 +65,10 @@ namespace UniversitySystem
             SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-ITDVNJL;Initial Catalog=schooldb;Integrated Security=True");
             con.Open();
 
-            SqlCommand cnn = new SqlCommand("update entab set StudentName=@studentname,Section=@section,EnrollDate=@enrolldate where EId=@eid", con);
+            SqlCommand cnn = new SqlCommand("update entab set StudentId=@studentid,SectionId=@sectionid,EnrollDate=@enrolldate where EId=@eid", con);
             cnn.Parameters.AddWithValue("@eid", int.Parse(textBox1.Text));
-            cnn.Parameters.AddWithValue("@studentname", textBox2.Text);
-            cnn.Parameters.AddWithValue("@section", textBox3.Text);
+            cnn.Parameters.AddWithValue("@studentid", int.Parse(textBox2.Text));
+            cnn.Parameters.AddWithValue("@sectionid", int.Parse(textBox3.Text));
             cnn.Parameters.AddWithValue("@enrolldate", dateTimePicker1.Value);
             cnn.ExecuteNonQuery();
             con.Close();
@@ -100,7 +100,7 @@ namespace UniversitySystem
             SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-ITDVNJL;Initial Catalog=schooldb;Integrated Security=True");
             con.Open();
 
-            SqlCommand cnn = new SqlCommand("select * from entab", con);
+            SqlCommand cnn = new SqlCommand("select * from (entab e JOIN studentab s ON e.StudentId = s.StudentId) JOIN sectiontab se ON e.SectionId = se.SectionId", con);
             SqlDataAdapter da = new SqlDataAdapter(cnn);
             DataTable table = new DataTable();
             da.Fill(table);
@@ -112,7 +112,7 @@ namespace UniversitySystem
             SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-ITDVNJL;Initial Catalog=schooldb;Integrated Security=True");
             con.Open();
 
-            SqlCommand cnn = new SqlCommand("select * from entab", con);
+            SqlCommand cnn = new SqlCommand("select * from (entab e JOIN studentab s ON e.StudentId = s.StudentId) JOIN sectiontab se ON e.SectionId = se.SectionId", con);
             SqlDataAdapter da = new SqlDataAdapter(cnn);
             DataTable table = new DataTable();
             da.Fill(table);

@@ -14,3 +14,5 @@ C:\Users\bxkuy\OneDrive\Masaüstü\VisualProgramingProject\UniversitySystem\Univ
 C:\Users\bxkuy\OneDrive\Masaüstü\VisualProgramingProject\UniversitySystem\UniversitySystem\obj\Debug\UniversitySystem.Teacher.resources
 C:\Users\bxkuy\OneDrive\Masaüstü\VisualProgramingProject\UniversitySystem\UniversitySystem\obj\Debug\UniversitySystem.Section.resources
 C:\Users\bxkuy\OneDrive\Masaüstü\VisualProgramingProject\UniversitySystem\UniversitySystem\obj\Debug\UniversitySystem.Enrollment.resources
+C:\Users\bxkuy\OneDrive\Masaüstü\VisualProgramingProject\UniversitySystem\UniversitySystem\obj\Debug\UniversitySystem.Attendance.resources
+C:\Users\bxkuy\OneDrive\Masaüstü\VisualProgramingProject\UniversitySystem\UniversitySystem\obj\Debug\UniversitySystem.Dashboard.resources

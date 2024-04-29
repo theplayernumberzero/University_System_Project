@@ -46,5 +46,17 @@ namespace UniversitySystem
             Enrollment enrollment = new Enrollment();
             enrollment.Show();
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Attendance attendance = new Attendance();
+            attendance.Show();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Dashboard dashboard = new Dashboard();
+            dashboard.Show();
+        }
     }
 }

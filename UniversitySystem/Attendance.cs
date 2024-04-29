@@ -2,30 +2,27 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
-using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
-
 namespace UniversitySystem
 {
-    public partial class Section : Form
+    public partial class Attendance : Form
     {
-        public Section()
+        public Attendance()
         {
             InitializeComponent();
         }
 
-        private void Section_Load(object sender, EventArgs e)
+        private void Attendance_Load(object sender, EventArgs e)
         {
             SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-ITDVNJL;Initial Catalog=schooldb;Integrated Security=True");
             con.Open();
 
-            SqlCommand cnn = new SqlCommand("select * from sectiontab s inner join studentab st on s.StudentId = st.StudentId", con);
+            SqlCommand cnn = new SqlCommand("select * from attentab a inner join studentab s on a.StudentId = s.StudentId", con);
             SqlDataAdapter da = new SqlDataAdapter(cnn);
             DataTable table = new DataTable();
             da.Fill(table);
@@ -37,10 +34,10 @@ namespace UniversitySystem
             SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-ITDVNJL;Initial Catalog=schooldb;Integrated Security=True");
             con.Open();
 
-            SqlCommand cnn = new SqlCommand("insert into sectiontab values(@sectionid,@studentid,@section)", con);
-            cnn.Parameters.AddWithValue("@sectionid", int.Parse(textBox1.Text));
+            SqlCommand cnn = new SqlCommand("insert into attentab values(@aid,@studentid,@status)", con);
+            cnn.Parameters.AddWithValue("@aid", int.Parse(textBox1.Text));
             cnn.Parameters.AddWithValue("@studentid", int.Parse(textBox2.Text));
-            cnn.Parameters.AddWithValue("@section", textBox3.Text);
+            cnn.Parameters.AddWithValue("@status", textBox3.Text);
             cnn.ExecuteNonQuery();
             con.Close();
             MessageBox.Show("Record Saved Successfully", "Save", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -51,7 +48,7 @@ namespace UniversitySystem
             SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-ITDVNJL;Initial Catalog=schooldb;Integrated Security=True");
             con.Open();
 
-            SqlCommand cnn = new SqlCommand("select * from sectiontab s inner join studentab st on s.StudentId = st.StudentId", con);
+            SqlCommand cnn = new SqlCommand("select * from attentab a inner join studentab s on a.StudentId = s.StudentId", con);
             SqlDataAdapter da = new SqlDataAdapter(cnn);
             DataTable table = new DataTable();
             da.Fill(table);
@@ -63,10 +60,10 @@ namespace UniversitySystem
             SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-ITDVNJL;Initial Catalog=schooldb;Integrated Security=True");
             con.Open();
 
-            SqlCommand cnn = new SqlCommand("update sectiontab set StudentId=@studentid,Section=@section", con);
-            cnn.Parameters.AddWithValue("@sectionid", int.Parse(textBox1.Text));
+            SqlCommand cnn = new SqlCommand("update attentab set StudentId=@studentid,Status=@status where AId=@aid", con);
+            cnn.Parameters.AddWithValue("@aid", int.Parse(textBox1.Text));
             cnn.Parameters.AddWithValue("@studentid", int.Parse(textBox2.Text));
-            cnn.Parameters.AddWithValue("@section", textBox3.Text);
+            cnn.Parameters.AddWithValue("@status", textBox3.Text);
             cnn.ExecuteNonQuery();
             con.Close();
             MessageBox.Show("Student Updated Succesfully", "Update", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -77,12 +74,12 @@ namespace UniversitySystem
             SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-ITDVNJL;Initial Catalog=schooldb;Integrated Security=True");
             con.Open();
 
-            SqlCommand cnn = new SqlCommand("delete sectiontab where SectionId=@sectionid", con);
-            cnn.Parameters.AddWithValue("@sectionid", int.Parse(textBox1.Text));
+            SqlCommand cnn = new SqlCommand("delete attentab where AId=@aid", con);
+            cnn.Parameters.AddWithValue("@aid", int.Parse(textBox1.Text));
 
             cnn.ExecuteNonQuery();
             con.Close();
-            MessageBox.Show("Record Deleted Successfully", "Delete", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Student Deleted Succesfully", "Delete", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void btnNew_Click(object sender, EventArgs e)
@@ -97,11 +94,11 @@ namespace UniversitySystem
             SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-ITDVNJL;Initial Catalog=schooldb;Integrated Security=True");
             con.Open();
 
-            SqlCommand cnn = new SqlCommand("select * from sectiontab s inner join studentab st on s.StudentId = st.StudentId", con);
+            SqlCommand cnn = new SqlCommand("select * from attentab a inner join studentab s on a.StudentId = s.StudentId", con);
             SqlDataAdapter da = new SqlDataAdapter(cnn);
             DataTable table = new DataTable();
             da.Fill(table);
-            dataGridView1.DataSource = table;
+            dataGridView1.DataSource = table; ;
         }
     }
 }
