@@ -34,5 +34,17 @@ namespace UniversitySystem
             Teacher tr = new Teacher();
             tr.Show();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Section section = new Section();
+            section.Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Enrollment enrollment = new Enrollment();
+            enrollment.Show();
+        }
     }
 }
