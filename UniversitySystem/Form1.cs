@@ -37,7 +37,7 @@ namespace UniversitySystem
             }
             else
             {
-                MessageBox.Show("Invalid username or password");
+                MessageBox.Show("Invalid username or password", "Fail Access", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
             con.Close();
         }

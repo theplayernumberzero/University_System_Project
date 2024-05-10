@@ -53,7 +53,7 @@ namespace UniversitySystem
             SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-ITDVNJL;Initial Catalog=schooldb;Integrated Security=True");
             con.Open();
 
-            SqlCommand cnn = new SqlCommand("select * from (entab e JOIN studentab s ON e.StudentId = s.StudentId) JOIN sectiontab se ON e.SectionId = se.SectionId", con);
+            SqlCommand cnn = new SqlCommand("select e.EId, s.StudentName, s.Gender, s.Email, se.Section, e.EnrollDate from (entab e JOIN studentab s ON e.StudentId = s.StudentId) JOIN sectiontab se ON e.SectionId = se.SectionId", con);
             SqlDataAdapter da = new SqlDataAdapter(cnn);
             DataTable table = new DataTable();
             da.Fill(table);
@@ -100,7 +100,7 @@ namespace UniversitySystem
             SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-ITDVNJL;Initial Catalog=schooldb;Integrated Security=True");
             con.Open();
 
-            SqlCommand cnn = new SqlCommand("select * from (entab e JOIN studentab s ON e.StudentId = s.StudentId) JOIN sectiontab se ON e.SectionId = se.SectionId", con);
+            SqlCommand cnn = new SqlCommand("select e.EId, s.StudentName, s.Gender, s.Email, se.Section, e.EnrollDate from (entab e JOIN studentab s ON e.StudentId = s.StudentId) JOIN sectiontab se ON e.SectionId = se.SectionId", con);
             SqlDataAdapter da = new SqlDataAdapter(cnn);
             DataTable table = new DataTable();
             da.Fill(table);
@@ -112,7 +112,7 @@ namespace UniversitySystem
             SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-ITDVNJL;Initial Catalog=schooldb;Integrated Security=True");
             con.Open();
 
-            SqlCommand cnn = new SqlCommand("select * from (entab e JOIN studentab s ON e.StudentId = s.StudentId) JOIN sectiontab se ON e.SectionId = se.SectionId", con);
+            SqlCommand cnn = new SqlCommand("select e.EId, s.StudentName, s.Gender, s.Email, se.Section, e.EnrollDate from (entab e JOIN studentab s ON e.StudentId = s.StudentId) JOIN sectiontab se ON e.SectionId = se.SectionId", con);
             SqlDataAdapter da = new SqlDataAdapter(cnn);
             DataTable table = new DataTable();
             da.Fill(table);

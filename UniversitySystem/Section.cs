@@ -25,7 +25,7 @@ namespace UniversitySystem
             SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-ITDVNJL;Initial Catalog=schooldb;Integrated Security=True");
             con.Open();
 
-            SqlCommand cnn = new SqlCommand("select * from sectiontab s inner join studentab st on s.StudentId = st.StudentId", con);
+            SqlCommand cnn = new SqlCommand("select s.SectionId, st.StudentName, st.Gender, st.Email, s.Section from sectiontab s inner join studentab st on s.StudentId = st.StudentId", con);
             SqlDataAdapter da = new SqlDataAdapter(cnn);
             DataTable table = new DataTable();
             da.Fill(table);
@@ -51,7 +51,7 @@ namespace UniversitySystem
             SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-ITDVNJL;Initial Catalog=schooldb;Integrated Security=True");
             con.Open();
 
-            SqlCommand cnn = new SqlCommand("select * from sectiontab s inner join studentab st on s.StudentId = st.StudentId", con);
+            SqlCommand cnn = new SqlCommand("select s.SectionId, st.StudentName, st.Gender, st.Email, s.Section from sectiontab s inner join studentab st on s.StudentId = st.StudentId", con);
             SqlDataAdapter da = new SqlDataAdapter(cnn);
             DataTable table = new DataTable();
             da.Fill(table);
@@ -63,7 +63,7 @@ namespace UniversitySystem
             SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-ITDVNJL;Initial Catalog=schooldb;Integrated Security=True");
             con.Open();
 
-            SqlCommand cnn = new SqlCommand("update sectiontab set StudentId=@studentid,Section=@section", con);
+            SqlCommand cnn = new SqlCommand("update sectiontab set StudentId=@studentid,Section=@section where SectionId=@sectionid", con);
             cnn.Parameters.AddWithValue("@sectionid", int.Parse(textBox1.Text));
             cnn.Parameters.AddWithValue("@studentid", int.Parse(textBox2.Text));
             cnn.Parameters.AddWithValue("@section", textBox3.Text);
@@ -97,7 +97,7 @@ namespace UniversitySystem
             SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-ITDVNJL;Initial Catalog=schooldb;Integrated Security=True");
             con.Open();
 
-            SqlCommand cnn = new SqlCommand("select * from sectiontab s inner join studentab st on s.StudentId = st.StudentId", con);
+            SqlCommand cnn = new SqlCommand("select s.SectionId, st.StudentName, st.Gender, st.Email, s.Section from sectiontab s inner join studentab st on s.StudentId = st.StudentId", con);
             SqlDataAdapter da = new SqlDataAdapter(cnn);
             DataTable table = new DataTable();
             da.Fill(table);

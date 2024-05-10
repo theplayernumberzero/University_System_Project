@@ -31,6 +31,8 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.btnDisplay = new System.Windows.Forms.Button();
             this.btnNew = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
@@ -41,8 +43,6 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -90,6 +90,23 @@
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Section Information";
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(207, 122);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(200, 22);
+            this.textBox3.TabIndex = 20;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label4.Location = new System.Drawing.Point(42, 120);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(70, 22);
+            this.label4.TabIndex = 19;
+            this.label4.Text = "Section";
             // 
             // btnDisplay
             // 
@@ -183,9 +200,9 @@
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label3.Location = new System.Drawing.Point(42, 76);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(119, 22);
+            this.label3.Size = new System.Drawing.Size(86, 22);
             this.label3.TabIndex = 1;
-            this.label3.Text = "StudentName";
+            this.label3.Text = "StudentId";
             // 
             // label2
             // 
@@ -196,23 +213,6 @@
             this.label2.Size = new System.Drawing.Size(84, 22);
             this.label2.TabIndex = 0;
             this.label2.Text = "SectionId";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label4.Location = new System.Drawing.Point(42, 120);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(70, 22);
-            this.label4.TabIndex = 19;
-            this.label4.Text = "Section";
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(207, 122);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(200, 22);
-            this.textBox3.TabIndex = 20;
             // 
             // dataGridView1
             // 

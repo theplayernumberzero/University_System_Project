@@ -22,7 +22,7 @@ namespace UniversitySystem
             SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-ITDVNJL;Initial Catalog=schooldb;Integrated Security=True");
             con.Open();
 
-            SqlCommand cnn = new SqlCommand("select * from attentab a inner join studentab s on a.StudentId = s.StudentId", con);
+            SqlCommand cnn = new SqlCommand("select a.AId, s.StudentName, s.Gender, s.Phone, a.Status from attentab a inner join studentab s on a.StudentId = s.StudentId", con);
             SqlDataAdapter da = new SqlDataAdapter(cnn);
             DataTable table = new DataTable();
             da.Fill(table);
@@ -48,7 +48,7 @@ namespace UniversitySystem
             SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-ITDVNJL;Initial Catalog=schooldb;Integrated Security=True");
             con.Open();
 
-            SqlCommand cnn = new SqlCommand("select * from attentab a inner join studentab s on a.StudentId = s.StudentId", con);
+            SqlCommand cnn = new SqlCommand("select a.AId, s.StudentName, s.Gender, s.Phone, a.Status from attentab a inner join studentab s on a.StudentId = s.StudentId", con);
             SqlDataAdapter da = new SqlDataAdapter(cnn);
             DataTable table = new DataTable();
             da.Fill(table);
@@ -94,7 +94,7 @@ namespace UniversitySystem
             SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-ITDVNJL;Initial Catalog=schooldb;Integrated Security=True");
             con.Open();
 
-            SqlCommand cnn = new SqlCommand("select * from attentab a inner join studentab s on a.StudentId = s.StudentId", con);
+            SqlCommand cnn = new SqlCommand("select a.AId, s.StudentName, s.Gender, s.Phone, a.Status from attentab a inner join studentab s on a.StudentId = s.StudentId", con);
             SqlDataAdapter da = new SqlDataAdapter(cnn);
             DataTable table = new DataTable();
             da.Fill(table);
